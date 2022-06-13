@@ -1,9 +1,9 @@
 baseURL = "https://your-awesome-blog.com/"
-title = "ブログのサイト名"
+hasCJKLanguage = true
 # 実際は自分達でテーマを作成・調整していましたが、それを公開されているテーマへ変更したものです。
 # そのため、動いてない部分があるかもしれません。
 theme = "smol"
-hasCJKLanguage = true
+title = "ブログのサイト名"
 
 [permalinks]
   posts = "/:year/:filename/"
