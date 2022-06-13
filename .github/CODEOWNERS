@@ -1,0 +1,3 @@
+# 投稿データに対して、運営者を設定する。
+#/content/posts/ @foo/bar
+#/static/external/posts/ @foo/bar

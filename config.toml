@@ -1,0 +1,22 @@
+baseURL = "https://your-awesome-blog.com/"
+title = "ブログのサイト名"
+# 実際は自分達でテーマを作成・調整していましたが、それを公開されているテーマへ変更したものです。
+# そのため、動いてない部分があるかもしれません。
+theme = "smol"
+hasCJKLanguage = true
+summaryLength = 150
+
+[permalinks]
+  posts = "/:year/:filename/"
+
+[taxonomies]
+  author = "authors"
+
+[params]
+  description = "主に OGP と SEO 用の詳細です。"
+  images = ["external/ogp-image.png"]
+
+[markup]
+  [markup.highlight]
+    # 構文推測をONにすることで言語指定がなくてもsyntax highlightする
+    guessSyntax = true
