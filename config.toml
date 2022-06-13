@@ -4,7 +4,6 @@ title = "ブログのサイト名"
 # そのため、動いてない部分があるかもしれません。
 theme = "smol"
 hasCJKLanguage = true
-summaryLength = 150
 
 [permalinks]
   posts = "/:year/:filename/"
@@ -18,5 +17,4 @@ summaryLength = 150
 
 [markup]
   [markup.highlight]
-    # 構文推測をONにすることで言語指定がなくてもsyntax highlightする
     guessSyntax = true
