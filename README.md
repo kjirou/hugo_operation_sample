@@ -5,6 +5,6 @@
 
 ## :books: ドキュメント
 
-- :black_nib: [ブログ記事を投稿する](/documents/posting.md)
+- :writing_hand: [ブログ記事を投稿する](/documents/posting.md)
 - :computer: [ブログを運営する](/documents/administration.md)
 - :wrench: [ブログの開発をする](/documents/development.md)

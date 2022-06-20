@@ -1,4 +1,4 @@
-# :black_nib: ブログ記事を投稿する
+# :writing_hand: ブログ記事を投稿する
 ## :tipping_hand_woman: 全体の流れ
 
 投稿から公開までの流れは、大まかには以下のようになります。
@@ -20,7 +20,7 @@
 git clone git@github.com:kjirou/hugo_operation_sample.git
 ```
 
-## :writing_hand: 記事を執筆する
+## :black_nib: 記事を執筆する
 ### 記事の雛形を作る
 
 ```
