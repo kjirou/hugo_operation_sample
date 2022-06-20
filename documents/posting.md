@@ -68,10 +68,10 @@ authors:
 
 - Markdown の記法は、基本的には [GitHub Flavored Markdown](https://github.github.com/gfm/) に準拠しています。
 - 画像を置くときの構文は、`![{任意でalt属性}](/external/posts/{記事の投稿年}/{記事のファイル名}/{自由な画像名}.{拡張子})` です。
-- 外部コンテンツを埋め込むときの構文は、`{{< コンテンツ名　引数1 引数2 ... >}}` です。
-  - 例えば、Speaker Deck は　`{{< speakerdeck ここへIDを入れる 1.33333333333333 >}}`、YouTube は `{{< youtube ここへIDを入れる >}}` です。
-  - 対応しているコンテンツの種類は、[Hugo のビルトインに含まれているもの](https://gohugo.io/content-management/shortcodes/) と [独自に対応しているもの](/themes/default/layouts/shortcodes) です。
-  - 引数については、本来の埋め込むためのコードを見て、推測してください。
+- 外部コンテンツを埋め込むときの構文は、`{{< コンテンツに相当するShortcodesの名前 引数1 引数2 ... >}}` です。
+  - 対応しているコンテンツの種類は、[Hugo のビルトインに含まれているもの](https://gohugo.io/content-management/shortcodes/) と [独自に対応しているもの](/layouts/shortcodes) です。
+  - 引数については、Shortcode の元になっている各コンテンツを埋め込むための HTML コードを見て、推測してください。
+    - なお、独自対応に含まれている Speaker Deck は、普通に URL に含まれている識別子っぽい部分ではなく、Embed をするためのコードに含まれている `data-id` を使います。
 - レビューの指摘を減らすために、本文を書く前に [内容についてのガイドライン](/documents/content-guidelines.md) を一読願います。
 
 ## :mailbox_with_mail: 記事を提出する
