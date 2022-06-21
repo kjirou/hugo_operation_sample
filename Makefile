@@ -1,7 +1,7 @@
 RUN_HUGO_CONTAINER_ARGS := --rm \
   --mount type=bind,source="$(shell pwd)",target=/w \
   --workdir /w \
-  jojomi/hugo:0.76.5
+  jojomi/hugo:0.85.0
 POSTS_ROOT := ./content/posts
 YEAR := $(shell date '+%Y')
 
