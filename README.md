@@ -7,6 +7,8 @@
 
 [Hugo](https://gohugo.io/) の投稿を GitHub の Pull-Request で検証する運用を想定した、ブログシステムのサンプルです。
 
+概要や補足については、[Zenn に記事を書きました](https://zenn.dev/kjirou/articles/6e3a046ea42efc)。
+
 ## :books: ドキュメント
 
 - :writing_hand: [ブログ記事を投稿する](/documents/posting.md)
